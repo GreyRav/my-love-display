@@ -20,8 +20,8 @@ use ssd1306::{prelude::*, I2CDisplayInterface, Ssd1306};
 use std::thread;
 use std::time::Duration;
 
-const WIFI_SSID: &str = "drat";
-const WIFI_PASS: &str = "20112012@";
+const WIFI_SSID: &str = "SSID";
+const WIFI_PASS: &str = "MDP";
 const SERVER_URL: &str = "http://my-love.duckdns.org:8080";
 const MY_PERSON: &str = "a";
 const POLL_INTERVAL: Duration = Duration::from_secs(5);
