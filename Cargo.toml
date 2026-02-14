@@ -1,0 +1,30 @@
+[package]
+name = "love-display"
+version = "0.1.0"
+edition = "2021"
+resolver = "2"
+rust-version = "1.77"
+
+[[bin]]
+name = "love-display"
+harness = false
+
+[profile.release]
+opt-level = "s"
+
+[profile.dev]
+debug = true
+opt-level = "z"
+
+[dependencies]
+log = "0.4"
+esp-idf-svc = "0.51"
+ssd1306 = "0.9"
+embedded-graphics = "0.8"
+embedded-svc = "0.28"
+serde = { version = "1", default-features = false, features = ["derive"] }
+serde_json = "1"
+anyhow = "1"
+
+[build-dependencies]
+embuild = "0.33"
