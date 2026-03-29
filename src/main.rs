@@ -22,7 +22,7 @@ use std::time::Duration;
 
 const WIFI_SSID: &str = "SSID";
 const WIFI_PASS: &str = "MDP";
-const SERVER_URL: &str = "http://my-love.duckdns.org:8080";
+const SERVER_URL: &str = "URL SERVER";
 const MY_PERSON: &str = "a";
 const POLL_INTERVAL: Duration = Duration::from_secs(5);
 
